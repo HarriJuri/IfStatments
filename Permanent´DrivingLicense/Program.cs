@@ -11,20 +11,11 @@ namespace Permanent_DrivingLicense
             //programm teatab kaustajat, kas ta on piisavalt vana
             //et juhiluba saada
 
-            Console.WriteLine("Mis aastal sa oled sündinud?")
-            int Age = Int32.Parse(Console.ReadLine());
-            int YearOfBirth = 2021 - Age;
+            Console.WriteLine("Sises´ta oma sünniaasta");
+            int YearOfBirth = Int32.Parse(Console.ReadLine());
+            int Age = 2021 - YearOfBirth;
 
-            if (Age > YearOfBirth)
-            {
-                Console.WriteLine("Oled piisavalt vana et saada juhiluba");
-            }
-            else if (Age < )
-            {
-                Console.WriteLine("Oled liiga noor");
-            }
-
-
+            if (Age >
         }
 
     }
